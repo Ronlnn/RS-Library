@@ -1,0 +1,80 @@
+body {
+    width: 1440px;
+    height: 2000px;
+}
+
+header {
+    height: 90px;
+    background-color : #0C0C0E;
+}
+
+header h2 {
+    color: #fff;
+    text-align: left;
+    margin: 20px 20px 20px 20px;
+    font-family: "Forum", serif;
+    /*font-style: normal;*/
+    line-height: 167%;
+    font-weight: normal;
+    font-size: 30px;
+    /*font-style: inherit;*/
+    width: auto;
+    height: 50px;
+    display: inline-block;
+    letter-spacing: 0.02em;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.nav{
+    overflow: hidden;
+    width: auto;
+    height: 50px;
+    float: right;
+    margin-right: 30px ;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-family: Inter, sans-serif ;
+    line-height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Используем flexbox */
+    justify-content: center; /* Выравниваем содержимое по центру */
+
+}
+
+.nav li {
+    margin: 0 10px; /* Добавляем отступы между элементами списка */
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-weight: 400;
+    line-height: 250%;
+}
+
+.nav li img{
+    width: 28px;
+    height: 28px;
+    margin: 10px 10px;
+}
+
+.welcome {
+    height: 600px;
+    background-image: linear-gradient(to bottom, rgba(12, 12, 14, 1)0%,
+    rgba(12, 12, 14, 1) 0%,
+    rgba(18, 18, 21, 0.1) 100%),
+    url("src/welcome bckg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
