@@ -416,6 +416,8 @@ input[type="radio"] {
 }
 .coffee-tea-item{
     width: calc(100%/4);
+    font-family: Inter, sans-serif;
+    font-size: 20px;
 }
 
 .desserts-cakes{
@@ -437,10 +439,51 @@ input[type="radio"] {
     line-height: 100%;
     letter-spacing: 0.05em;
     text-transform: capitalize;
-
-
 }
 
 .desserts-cakes-item{
     width: calc(100%/4);
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+}
+.contact-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.our-contacts iframe{
+    float: right;
+    margin-right: 20px;
+    height: 400px;
+}
+.info{
+
+    width: 600px;
+ }
+.info-desc{
+    margin: 0;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+
+
+}
+
+.info p {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+}
+
+.desc-desc{
+    margin-top: 40px;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+}
+
+.p {
+    margin-top: 20px;
 }
