@@ -1,6 +1,11 @@
 body {
-    width: 1440px;
-    height: 3000px;
+ ;
+    height: 5246px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 
 }
 
@@ -91,7 +96,7 @@ header h2 {
     justify-content: center;
     align-items: center;
 }
-.welcome h1{
+.welcome-text {
     color: white;
     margin: 0;
     height: 150px;
@@ -99,13 +104,223 @@ header h2 {
     font-family: "Forum", serif; display: flex;
     font-size: 40px;
     font-weight: 400;
-    line-height: 125%;
     letter-spacing: 0.07em;
     text-transform: uppercase;
     text-align: center;
-    max-height: 3.6em; /* Установка максимальной высоты (3 строки по 1.2em высоты каждая) */
-    overflow: hidden;
+    /*max-height: 3.6em; !* Установка максимальной высоты (3 строки по 1.2em высоты каждая) *!*/
+    /*overflow: hidden;*/
+    white-space: pre-wrap;
 }.about h2 {
-    margin: 0;
- }
 
+    margin: 20px;
+    text-align: center;
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #0C0C0E;
+ }
+.about h3 {
+
+    margin: 20px;
+    text-align: center;
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0C0C0E;
+}
+.line {
+    border: none; /* Удаляем стандартную границу hr */
+    height: 1px; /* Высота линии */
+    background-color: #0C0C0E; /* Цвет линии */
+    width: 50px;
+}
+
+.image-gallery{
+    display: flex;
+    width: 1440px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+
+.image-gallery img{
+    width: 450px;
+    height: 560px;
+
+}
+
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 16px;
+    gap: 25px;
+    margin-top: 40px ;
+    margin-bottom: 40px;
+
+}
+
+.circle-1 {
+    background: #bb945f;
+    border-radius: 50px;
+    height: 16px;
+    width: 16px;
+}
+
+.circle-2 {
+    background: #0c0c0e;
+    border-radius: 50px;
+    height: 16px;
+    width: 16px;
+}
+
+.favorites{
+    height: 1439px;
+}
+
+.favorites-title{
+    text-align: center;
+    font-family: "Forum", serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #0c0c0e;
+}
+
+.favorites p {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    color: #000;
+    font-family: "Inter", sans-serif;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.seasons{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 20px;
+    height: 24px;
+}
+
+.seasons label{
+    margin-left: 10px;
+    margin-right: 90px;
+    font-size: 20px;
+}
+input[type="radio"] {
+    margin-right: 5px; /* Отступ между кнопкой и надписью */
+}
+
+.favorite-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1400px;
+    height: 1150px;
+    gap: 40px 200px;
+    margin-top: 40px;
+
+}
+.favorite-items div{
+    width: 590px;
+    height: 555px;
+    margin-top: 0;
+
+}
+
+.favorite-items div .border{
+    border: 1px solid #000;
+    width: 550px;
+    height: 555px;
+    margin-top: 0;
+}
+
+.staff-picks{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: "Forum", serif;
+    font-weight: 400;
+}
+
+.gold-line {
+    border: none; /* Удаляем стандартную границу hr */
+    height: 1px; /* Высота линии */
+    background-color: #BB945F; /* Цвет линии */
+    width: 50px;
+    margin-left: 20px;
+}
+
+.book-author{
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 168px;
+    letter-spacing: 0.02em;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.book-author-3{
+    width: 355px;
+    height: 80px;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 0.02em;
+    line-height: 40px;
+    font-weight: bold;
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+.favorite-items .border .read{
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 267%;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    text-align: left;
+    color: #000;
+    margin-left: 20px;
+    width: 350px;
+    height: 320px;
+    float: left;
+    margin-right: 15px;
+}
+.favorite-items .f-first .fav-book{
+    background: url("src/fav-1.jpeg");
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    /*float: right;*/
+    top: 2025px ;
+    left: 370px;
+    z-index: 1;
+}
+
+.buy{
+
+    border: 1px solid #0c0c0e;
+    border-radius: 2px;
+    width: 75px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #0c0c0e;
+    background-color: white;
+
+}
