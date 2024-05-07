@@ -241,6 +241,9 @@ input[type="radio"] {
     width: 550px;
     height: 555px;
     margin-top: 0;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .staff-picks{
@@ -284,7 +287,7 @@ input[type="radio"] {
     text-align: left;
 }
 
-.favorite-items .border .read{
+.favorite-items .border .description{
     font-family: "Forum", serif;
     font-weight: 400;
     font-size: 15px;
@@ -306,12 +309,11 @@ input[type="radio"] {
     position: absolute;
     /*float: right;*/
     top: 2025px ;
-    left: 370px;
+    left: 620px;
     z-index: 1;
 }
 
 .buy{
-
     border: 1px solid #0c0c0e;
     border-radius: 2px;
     width: 75px;
@@ -322,5 +324,40 @@ input[type="radio"] {
     text-align: center;
     color: #0c0c0e;
     background-color: white;
+    /*float: left;*/
+    margin-left: 20px;
+    margin-top: 5px;
+}
 
+.f-second .fav-book2{
+    background: url("src/fav-2.jpeg");
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    /*float: right;*/
+    top: 2025px ;
+    left: 1420px;
+    z-index: 1;
+}
+
+#fav-book3{
+    background: url("src/fav-3.jpeg");
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    /*float: right;*/
+    top: 2625px ;
+    left: 620px;
+    z-index: 1
+}
+
+#fav-book4{
+    background: url("src/fav-4.jpeg");
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    /*float: right;*/
+    top: 2625px ;
+    left: 1420px;
+    z-index: 1;
 }
